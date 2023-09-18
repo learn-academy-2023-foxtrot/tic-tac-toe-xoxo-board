@@ -59,6 +59,14 @@ There is an interesting approach to the [Tic Tac Toe win condition in React](htt
 ### 📚 User Stories
 
 - As a user, I can see a three by three grid game board on the page.
+
+Branch name: grid
+process: imported the square component, pass the squares array as props to the square component, perform display logic to .map() or iterate across each value to place the value in the box, use flexbox to create a 3x3 grid in App.css
+
+
+
+
+
 - As a user, I can click on a square to mark it.
 - As a user, my partner can click on a square after me and see their mark.
 - As a user, I can't click on a square that has already been marked.
