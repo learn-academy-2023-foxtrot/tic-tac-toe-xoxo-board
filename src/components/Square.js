@@ -3,6 +3,7 @@ import React from 'react'
 
 const Square = ( {squares, handleClick} ) => {
   console.log("squares", squares)
+  console.log("handleClick", handleClick)
   return (
     <>
       <div className="grid">
