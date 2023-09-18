@@ -64,11 +64,21 @@ Branch name: grid
 process: imported the square component, pass the squares array as props to the square component, perform display logic to .map() or iterate across each value to place the value in the box, use flexbox to create a 3x3 grid in App.css
 
 
-
-
-
 - As a user, I can click on a square to mark it.
+branch: marked
+process: create a function that executes the setter function to update the value of the states variable
+psudo code:
+function name: handleClick
+input: selectedIndex, number
+outptut: index, number
+process: created a function called handleClick to indicate the placement of the index, alert() to see that if we clicked a box it would us the index of that specific box, conditional statement to add a marker to the clicked on box, 
+
+Array(9).fill(null) --> array with the length of 9 all with the value of the datatype null
+
 - As a user, my partner can click on a square after me and see their mark.
+
+make it two players, how are you going to hold the other players inputs? store.variable????
+
 - As a user, I can't click on a square that has already been marked.
 - As a user, when either my partner or I win the game (three squares in a row: horizontally, vertically, or diagonally), I can see a notice telling me which player won.
 - As a user, I can't play the game after the game has been won.
